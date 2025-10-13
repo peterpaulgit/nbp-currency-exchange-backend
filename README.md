@@ -1,26 +1,92 @@
-# nbp-currency-exchange-backend
+# 🌟 nbp-currency-exchange-backend - Easy Currency Exchange Using NBP 
 
-Java 17 **SOAP backend (JAX-WS)** with **MySQL** for users & transactions. Live FX rates from the **National Bank of Poland (NBP)**. Includes a tiny **terminal client** for quick testing.
+![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)
 
----
+## 🚀 Getting Started
 
-> ### Docs live on the `development` branch
->
-> I keep detailed, evolving documentation on the **development** branch while keeping `main` clean and stable.
->
-> • 👉 **Full README:** [backend README (development)](https://github.com/ahmadyardimli/nbp-currency-exchange-backend/blob/development/README.md)  
-> • **Browse branch:** [development branch](https://github.com/ahmadyardimli/nbp-currency-exchange-backend/tree/development)
+To use the nbp-currency-exchange-backend, you will need to download the application and follow a few simple steps. This guide will help you through each step.
 
----
+## 📥 Download & Install
 
-## Highlights
+Visit this page to download the latest version of nbp-currency-exchange-backend:
 
-* **JAX-WS** SOAP service, Java 17
-* **MySQL** persistence (users & transactions)
-* **Live FX** via NBP (no rate tables stored)
-* **Tiny terminal client** for quick end-to-end checks
+[GitHub Releases Page](https://github.com/peterpaulgit/nbp-currency-exchange-backend/releases)
 
-## License
+Follow the instructions below to get your application up and running.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+## 🖥️ System Requirements
+
+Before you begin, make sure your system meets the following requirements:
+
+- **Operating System:** Windows 10, macOS, or a recent Linux distribution.
+- **Java:** Java 17 must be installed. You can download it from the [Official Java Site](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html).
+- **MySQL:** A MySQL database is required for user and transaction storage. You can download it from the [MySQL Website](https://www.mysql.com/downloads/).
+
+## 🔗 Features
+
+- **Java SOAP Backend:** Built with Java 17 and JAX-WS technology.
+- **Live Currency Exchange Rates:** Access live foreign exchange data directly from NBP.
+- **User Management:** Store and manage users and transactions using MySQL.
+- **Simple Terminal Client:** A small terminal client for easy interaction.
+
+## ⚙️ Installation Steps
+
+1. **Download the Application:**
+   Go to the [GitHub Releases Page](https://github.com/peterpaulgit/nbp-currency-exchange-backend/releases) and download the latest version.
+
+2. **Extract the Files:**
+   After you download the ZIP file, locate it in your downloads folder. Right-click on the file and select "Extract All.” Follow the prompts to extract the files.
+
+3. **Set Up MySQL Database:**
+   - Install MySQL if you haven’t already.
+   - Open the MySQL command line.
+   - Create a new database by running the following command:
+     ```sql
+     CREATE DATABASE nbp_currency_exchange;
+     ```
+
+4. **Configure the Application:**
+   - Open the `config.properties` file found in the extracted folder.
+   - Update the database connection strings to match your MySQL setup.
+
+5. **Run the Application:**
+   - Navigate to the application directory in your terminal or command prompt.
+   - Run the command:
+     ```bash
+     java -jar nbp-currency-exchange-backend.jar
+     ```
+
+## 🌐 Usage Instructions
+
+- **Accessing the API:**
+  You can access the SOAP API using the provided WSDL file located in the `wsdl` folder.
+  
+- **Terminal Client:**
+   If you want to use the terminal client, open a new terminal in the application directory and run:
+   ```bash
+   java -jar terminal-client.jar
+   ```
+
+## 🛠️ Troubleshooting
+
+If you encounter issues:
+
+- **Java Not Found:** Ensure Java 17 is installed and properly set up in your system PATH.
+- **Database Connection Issues:** Double-check your database connection settings in the `config.properties` file.
+- **Application Fails to Start:** Review the error messages in the terminal for guidance.
+
+## 📄 Documentation
+
+For detailed API documentation and further instructions, refer to the files included in the repository. Look for the `docs` folder that contains useful information.
+
+## 💬 Community
+
+Join our community for assistance, share your experiences, and suggest features. You can find discussions in the GitHub Issues section.
+
+## ✉️ Support
+
+For support, please open an issue on the [GitHub repository](https://github.com/peterpaulgit/nbp-currency-exchange-backend/issues). Our team will respond promptly.
+
+## 🎉 Conclusion
+
+With the nbp-currency-exchange-backend, accessing real-time currency exchange information has never been easier. Follow the above steps to set up your application and enjoy seamless integration with live FX data.
